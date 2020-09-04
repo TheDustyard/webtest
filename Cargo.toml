@@ -1,0 +1,17 @@
+[package]
+name = "plugintest"
+version = "0.1.0"
+authors = ["DusterTheFirst <14093962+DusterTheFirst@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+askama = "0.9.0"
+thiserror = "1.0.10"
+dlopen = "0.1.8"
+dlopen_derive = "0.1.4"
+
+[lib]
+name = "plugin_api"
+path = "src/lib.rs"

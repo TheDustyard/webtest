@@ -1,0 +1,1 @@
+hello {{name}}, in the wonderful year of {{year}} and the great country of {{country}}
